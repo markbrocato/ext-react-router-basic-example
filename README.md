@@ -1,27 +1,19 @@
-# react-router-basic-example
-This is a basic example of using react-router
+# ext-react-router-basic-example
 
-README
+A basic app using react-router and Sencha's ExtReact.
 
-What is this repository for?
+## Setup
 
-A basic reactjs project example using react-router.
+If you haven't already, log into Sencha's private registry using the credentials you received in your ExtReact trial or subscription activation email.  If you don't have credentials, you can get them by [signing up for a trial of ExtReact](https://www.sencha.com/products/extreact/evaluate/).
 
-Version 1.0
-
-Setup-
+```
+npm login --registry=http://npm.sencha.com --scope=@extjs
+```
 
 1. Clone repository on your local machine
 2. npm install
 
-To run app-
+## Running
 
-1. npm run build (to bundle all your changes)
-2. npm start (to start the server)
-3. goto http://localhost:8080
-
-Who do I talk to?
-
-Repo owner or admin
-
-#ReactJS, #WEBPACK, #BABEL, #Javascript, #React-Router
+1. npm start
+2. goto http://localhost:8080

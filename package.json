@@ -1,7 +1,7 @@
 {
-  "name": "React-hello-world-example",
+  "name": "ext-react-router-basic-example",
   "version": "1.0.0",
-  "description": "This is a basic example using reactjs.",
+  "description": "A basic example of using react router with ExtReact",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
