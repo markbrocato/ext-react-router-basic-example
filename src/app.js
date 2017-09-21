@@ -11,7 +11,7 @@ class App extends Component {
                 <Container fullscreen layout="fit">
                     <Switch>
                         <Route exact path='/' component={Home} />
-                        <Route exact path='/address' component={Address} />
+                        <Route exact path='/foo/address' component={Address} />
                         <Route component={NotFound} />
                     </Switch>
                 </Container>
@@ -24,7 +24,7 @@ class App extends Component {
 const Home = () => (
     <Panel title="Home" bodyPadding={20}>
         The home view.
-        <Link to="/address">Address View</Link>
+        <Link to="/foo/address">Address View</Link>
     </Panel>
 );
 
